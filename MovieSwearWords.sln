@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSwearWords", "MovieSwearWords\MovieSwearWords.csproj", "{860F8809-9004-4B10-8F83-57E90E119620}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SwearWordInstall", "SwearWordInstall\SwearWordInstall.vdproj", "{A0C9C828-9AEE-4784-BF82-E7389A4D8EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{860F8809-9004-4B10-8F83-57E90E119620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860F8809-9004-4B10-8F83-57E90E119620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860F8809-9004-4B10-8F83-57E90E119620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860F8809-9004-4B10-8F83-57E90E119620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C9C828-9AEE-4784-BF82-E7389A4D8EE8}.Debug|Any CPU.ActiveCfg = Debug
+		{A0C9C828-9AEE-4784-BF82-E7389A4D8EE8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B2815EC-8A4A-4907-A190-4F8A88829C27}
+	EndGlobalSection
+EndGlobal

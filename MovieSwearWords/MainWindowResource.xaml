@@ -1,0 +1,69 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MovieSwearWords">
+    
+    <DataTemplate x:Key="SwearwordsTemplate">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                <Label Content="{Binding Path=Displayword}" Style="{DynamicResource MainLabels}" />
+                <Label Content="{Binding Path=WordCount}" />
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="WordsSettingTemplate">
+        <!--<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                <Label Content="{Binding Path=Displayword}" Style="{DynamicResource MainLabels}" />
+                <Label Content="{Binding Path=Keyword}" Style="{DynamicResource MainLabels}" />
+                <CheckBox Content="Enabled" IsChecked="{Binding Path=IsWordActive, Mode=TwoWay}" />
+            </StackPanel>
+        </Grid>-->
+    </DataTemplate>
+    
+    
+    <Style x:Key="RoundButton" TargetType="{x:Type Button}">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Width" Value="120" />
+        <Setter Property="Height" Value="25" />
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border
+                        x:Name="Border"
+                        BorderThickness="1"
+                        Padding="4,2"
+                        BorderBrush="Black"
+                        CornerRadius="3"
+                        Background="White"
+                        >
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Border" Property="BorderThickness" Value="2" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MainLabels" TargetType="{x:Type Label}">
+        <Setter Property="FontWeight" Value="DemiBold" />
+        <Setter Property="Width" Value="125" />
+    </Style>
+</ResourceDictionary>

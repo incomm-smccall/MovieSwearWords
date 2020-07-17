@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Swearwords>
+  <Swearword>
+    <ID>1</ID>
+    <Displayword>F* word count</Displayword>
+    <Searchword>fuck</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>2</ID>
+    <Displayword>Shit word count</Displayword>
+    <Searchword>shit</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>3</ID>
+    <Displayword>Damn word count</Displayword>
+    <Searchword>damn</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>4</ID>
+    <Displayword>Hell word count</Displayword>
+    <Searchword>hell</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>5</ID>
+    <Displayword>Piss word count</Displayword>
+    <Searchword>piss</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>6</ID>
+    <Displayword>Bitch word count</Displayword>
+    <Searchword>bitch</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>7</ID>
+    <Displayword>Cock word count</Displayword>
+    <Searchword>cock</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>8</ID>
+    <Displayword>Pussy word count</Displayword>
+    <Searchword>pussy</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+  <Swearword>
+    <ID>9</ID>
+    <Displayword>Cunt word count</Displayword>
+    <Searchword>cunt</Searchword>
+    <WordCount>WordCount</WordCount>
+    <IsActive>true</IsActive>
+  </Swearword>
+</Swearwords>
